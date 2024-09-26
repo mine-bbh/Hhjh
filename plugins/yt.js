@@ -43,7 +43,7 @@ cmd({
         try {
             if (!q) return await reply('*Please enter a query to search!*')
             let wm = `© 𝖰𝗎𝖾𝖾𝗇 𝗄𝖾𝗇𝗓𝗂 𝗆𝖽 v${require("../package.json").version} (Test)\nsɪᴍᴘʟᴇ ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ᴅᴀɴᴜxᴢᴢ 🅥`
-            const msg = `☬ Y T - S E A R C H `
+            const msg = `乂 Y T - S E A R C H `
             let yt = await (await yts(q)).all
             var sections = []
    yt.filter(p => p.type == 'video').map(async (v, i) => {
@@ -110,7 +110,7 @@ cmd({
                 let wm = `© 𝖰𝗎𝖾𝖾𝗇 𝗄𝖾𝗇𝗓𝗂 𝗆𝖽 v${require("../package.json").version} (Test)\nsɪᴍᴘʟᴇ ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ᴅᴀɴᴜxᴢᴢ 🅥`
 	        const yt = await dl.youtubedl(q).catch(async () => await dl.youtubedlv2(q))
 		//let { title, dl_url, quality, size, sizeB } = det
-            const msg = `☬  *Y T - V I D E O*
+            const msg = `乂  *Y T - V I D E O*
 	    
  *◦Title :* ${yt.title}
  *◦Duration :* ${yt.duration} s
@@ -171,7 +171,7 @@ cmd({
             var results = await yts(url);
             var result = results.videos[0]
 
-         let caption = `☬  *Y T - V I D E O*\n\n`
+         let caption = `乂  *Y T - V I D E O*\n\n`
          caption += `	◦  *Title* : ${result.title}\n`
          caption += `	◦  *Views* : ${result.views}\n`
          caption += `	◦  *Duration* : ${result.duration}\n`
@@ -254,7 +254,7 @@ cmd({
             var results = await yts(url);
             let wm = `© 𝖰𝗎𝖾𝖾𝗇 𝗄𝖾𝗇𝗓𝗂 𝗆𝖽 v${require("../package.json").version} (Test)\nsɪᴍᴘʟᴇ ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ᴅᴀɴᴜxᴢᴢ 🅥`
             var result = results.videos[0]
-         let caption = `☬  *Y T - V I D E O*\n\n`
+         let caption = `乂  *Y T - V I D E O*\n\n`
          caption += `	◦  *Title* : ${result.title}\n`
          caption += `	◦  *Views* : ${result.views}\n`
          caption += `	◦  *Duration* : ${result.duration}\n`
