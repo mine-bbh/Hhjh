@@ -118,19 +118,20 @@ text: commandList,
   contextInfo: {
     mentionedJid: [ '' ],
     groupMentions: [],
-    forwardingScore: 1111,
+    forwardingScore: 999,
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
       newsletterJid: '120363192956026815@newsletter',
-      serverMessageId: 127
+      newsletterName: "Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ 🅥",
+      serverMessageId: 999
     },
 externalAdReply: { 
 title: '😼ＫＥＮＺＩ-ＭＤ🤍',
-body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
+body: 'ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
-sourceUrl: "https://www.instagram.com/error.ayooh/" ,
+sourceUrl: "https://github.com/mine-bbh" ,
 thumbnailUrl: 'https://images.app.goo.gl/yPCQWGvZCimeoRqY7' ,
-renderLargerThumbnail: true,
+renderLargerThumbnail: false,
 showAdAttribution: false
 }
 }}, { quoted: mek})
