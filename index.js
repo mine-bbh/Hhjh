@@ -238,9 +238,9 @@ externalAdReply: {
 title: 'Qᴜᴇᴇɴ-ᴋᴇɴᴢɪ ᴍᴅ ᴠ2 ジ',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
-sourceUrl: "https://github.com/ayooh-me" ,
-thumbnailUrl: 'https://images.app.goo.gl/2S5MC7GThMwydoSh7' ,
-renderLargerThumbnail: true,
+sourceUrl: "https://github.com/mine-bbh" ,
+thumbnailUrl: 'https://images.app.goo.gl/yLorABL2fPLTeD6d7' ,
+renderLargerThumbnail: false,
 showAdAttribution: false
 }
 }}, { quoted: mek})
