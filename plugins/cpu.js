@@ -5,33 +5,27 @@ const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, 
 
 cmd({
     pattern: "system",
-    react: "🧬",
-    alias: ["os","cpu"],
-    desc: "Check bot\'s system info",
+    react: "💦",
+    alias: ["device","bot","info"],
+    desc: "Get bot\'s system..",
     category: "main",
     use: '.system',
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-try{
-  let totalStorage = Math.floor(os.totalmem() / 1024 / 1024) + 'MB'
-  let freeStorage = Math.floor(os.freemem() / 1024 / 1024) + 'MB'
-  let cpuModel = os.cpus()[0].model
-  let cpuSpeed = os.cpus()[0].speed / 1000
-  let cpuCount = os.cpus().length
 
-  let mes = `
-۞ *Your Bot Specifications* ۞
+  try{
+const tes = `┌───────────────────────
+├ 🧬 *Uptime:-*  ${runtime(process.uptime())}
+├ 🎲 *Ram usage:-*  ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
+├ 🦄  *Owner:-* *DanuXzz ジ*
+├ 💠  *Version:-* 1.0.0
+└───────────────────────`
 
-◦ *Total Ram*: ${totalStorage}
-◦ *Free Ram*: ${freeStorage}
-◦ *CPU Model*: ${cpuModel}
-◦ *CPU Speed*: ${cpuSpeed} GHz
-◦ *Number of CPU Cores*: ${cpuCount} `
-
-conn.sendMessage(from , { text: mes }, { quoted: mek } )
+ 
+await conn.sendMessage(from, { image: { url: config.ALIVE_IMG }, caption: tes }, { quoted: mek, messageId:genMsgId() })
 } catch (e) {
 reply('*Error !!*')
-console.log(e)
+l(e)
 }
 })
