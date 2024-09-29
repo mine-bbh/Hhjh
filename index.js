@@ -141,7 +141,7 @@ const conn = makeWASocket({
 
 		
             await conn.sendMessage(config.OWNER + "@s.whatsapp.net", {
-text: "*ᴘɪɴᴋ-ᴠᴇɴᴏᴍ ᴍᴅ successfully connected* ✓\n> ◦ *Official GitHub* - ```https://github.com/ayooh-me```\n> ◦ ᴊᴏɪɴ ᴏᴜʀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴠɪᴀ ᴛʏᴘᴇ: .joinsup\n*ᴘɪɴᴋ-ᴠᴇɴᴏᴍ ᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ*\n*ᴄʀᴇᴀᴛᴇᴅ ʙʏ • ᴀʏᴏᴅʏᴀ ᴠɪᴄʜᴀᴋsʜᴀɴᴀ*",
+text: "*ᴘɪɴᴋ-ᴠᴇɴᴏᴍ ᴍᴅ successfully connected* ✓\n> ◦ *Official GitHub* - ```https://github.com/mine-bbh```\n> ◦ ᴊᴏɪɴ ᴏᴜʀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴠɪᴀ ᴛʏᴘᴇ: .joinsup\n*𝖰𝗎𝖾𝖾𝗇 𝗄𝖾𝗇𝗓𝗂 𝗆𝖽 ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ*\n*ᴄʀᴇᴀᴛᴇᴅ ʙʏ • ᴅᴀɴᴜxᴢᴢ*",
 contextInfo: {
 externalAdReply: {
 title: "ᴘɪɴᴋ ᴠᴇɴᴏᴍ-ᴍᴅ\nSuccessfully Connected !",
